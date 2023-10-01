@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'My-font';
+    src: url(./fonts/YoungSerif-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: rgb(231, 189, 196);
+}
+.restaurant-logo{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid grey;
+    outline: 1px solid brown;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url(./images/unnamed.jpg);
+    background-repeat: no no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.heading h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'My-font';
+}
+hr{
+    color: rgb(59, 59, 211);
+    width: 80%;
+    margin: 0 auto;
+}
+article{
+    width: 80%;
+}
+article p{
+    margin-left: 136px;
+    font-size: 20px;
+}
+article p:nth-of-type(1){
+    color: red;
+    margin: 8px 0;
+    margin-left: 136px;
+}
+article p:nth-of-type(2){
+    margin: 8px 0;
+    margin-left: 67px;
+    margin-left: 136px;
+}
+article p:nth-of-type(3){
+    color: red;
+    margin: 8px 0;
+    margin-left: 67px;
+    margin-left: 136px;
+}
+article p:nth-of-type(4){
+    margin: 8px 0;
+    margin-left: 67px;
+    margin-left: 136px;
+}
+article p:nth-of-type(5){
+    color: red;
+    margin: 8px 0;
+    margin-left: 67px;
+    margin-left: 136px;
+}
